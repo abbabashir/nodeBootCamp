@@ -1,5 +1,11 @@
-const fileRead = require('fs')
+const fileStream = require('fs')
+const { readFileSync } = require('fs')
 
-fileRead.readFile('text.txt', 'utf-8',(error, data) => {
-    console.log(data);
-})
+fileStream.writeFileSync(
+    './result.txt', 
+    'I am writting into this file gvhjhjhjj')
+
+const readfile = readFileSync('./anything.txt', 'utf8')
+console.log('====================================');
+console.log(readfile);
+console.log('====================================');

@@ -1,6 +1,4 @@
-// module.exports.myItems = ['firstItem', 'secondItem', 'thirdItem']
-
-// console.log(myItem);
+module.exports.myItems = ['firstItem', 'secondItem', 'thirdItem']
 
 
 const person = {
@@ -9,6 +7,6 @@ const person = {
     city: 'Imaginative'
 }
 
-console.log(person);
+
 
 module.exports.singlePerson = person

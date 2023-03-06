@@ -4,14 +4,22 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbabashir/nodeBootCamp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbabashir/nodeBootCamp/issues"
+  },
+  "homepage": "https://github.com/abbabashir/nodeBootCamp#readme",
   "dependencies": {
     "express": "^4.18.2",
     "http": "^0.0.1-security",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.21"
   }
 }
